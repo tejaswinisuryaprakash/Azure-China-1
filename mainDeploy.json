@@ -80,7 +80,7 @@
         "subnet1Ref" : "[concat(variables('vnetID'),'/subnets/',parameters('subnet1Name'))]",
 		"subnet2Ref" : "[concat(variables('vnetID'),'/subnets/',parameters('subnet2Name'))]",
 		"subnet3Ref" : "[concat(variables('vnetID'),'/subnets/',parameters('subnet3Name'))]",
-		"userImageNameURI": "https://storagevhds.blob.core.chinacloudapi.cn/containervhds/PA-VM-AZR-7.1.1.vhd",
+		"userImageNameURI": "https://paloaltonetworks.blob.core.chinacloudapi.cn/vm-series/PA-VM-AZR-8.0.0.vhd",
 		"osDiskVhdNameURI": "[concat('http://',parameters('userImageStorageAccountName'),'.blob.core.chinacloudapi.cn/',parameters('userImageStorageContainerName'),'/',parameters('vmName'),'osDisk.vhd')]",
 		"osType": "Linux"
     },
